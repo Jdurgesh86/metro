@@ -1,7 +1,7 @@
 self.addEventListener("install", event => {
   event.waitUntil(
     caches.open("metro-cache").then(cache => {
-      return cache.addAll(["ticket.html", "style.css", "script.js"]);
+      return cache.addAll(["index.html"]);
     })
   );
 });
@@ -13,3 +13,4 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
