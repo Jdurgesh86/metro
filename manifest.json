@@ -1,7 +1,7 @@
 {
   "name": "Ahmedabad Metro",
   "short_name": "Metro",
-  "start_url": "ticket.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
@@ -18,3 +18,4 @@
     }
   ]
 }
+
